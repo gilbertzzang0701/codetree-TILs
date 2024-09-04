@@ -1,3 +1,4 @@
+sum_val=0
 arr=input().split()
 for i in range(10):
     sum_val+=int(arr[i])
