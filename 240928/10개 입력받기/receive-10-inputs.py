@@ -6,4 +6,4 @@ for i in range(len(arr)):
         break
     sum+=arr[i]
     sum_val+=1
-print(sum,sum/sum_val)
+print(sum,'%.1f' %(sum/sum_val))
