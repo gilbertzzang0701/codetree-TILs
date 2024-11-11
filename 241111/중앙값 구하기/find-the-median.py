@@ -4,4 +4,4 @@ if b>=a>=c or c>=a>=b or b<=a<=c or c<=a<=b:
 elif a>=b>=c or c>=b>=a or a<=b<=c or c<=b<=a:
     print(b)
 else:
-    print(C)
+    print(c)
