@@ -7,5 +7,5 @@ for i in range(1,n+1):
         break
     else:
         s='C'
-        #break
+        break
 print(s)
