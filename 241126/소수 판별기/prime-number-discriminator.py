@@ -6,4 +6,5 @@ for i in range(1,n+1):
         s='P'
     else:
         s='C'
+        break
 print(s)
