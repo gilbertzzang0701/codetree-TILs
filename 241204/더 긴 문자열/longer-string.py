@@ -1,4 +1,5 @@
-a,b=map(int(input).split())
+a=input()
+b=input()
 if len(a)>len(b):
     print(a,len(a))
 if len(a)<len(b):
