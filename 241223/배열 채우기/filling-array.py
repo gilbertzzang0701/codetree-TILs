@@ -8,8 +8,8 @@ for i in range(len(arr)):
     else:
         a=1
 if a==1:
-    for k in range(len(arr),-1):
-        print(arr[i],end=' ')
+    for k in range(len(arr)-1,-1,-1):
+        print(arr[k],end=' ')
 
 
 # for i in range( 4 ,-1)
