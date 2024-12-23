@@ -1,14 +1,15 @@
-#arr = list(map(int, input().split()))
-#a=0
-#for i in range(len(arr)):
-#    if arr[i]==0:
-#        for j in range(1,len(arr)): # 5
-#            print(arr[i-j],end=' ')   # i = 5 , j = 0 -> 5 -> 4
-#        break
-#    else:a==1
-#if a==1:
-#    print()
-
+arr = list(map(int, input().split()))
+a=0
+for i in range(len(arr)):
+    if arr[i]==0:
+        for j in range(1,len(arr)): # 5
+            print(arr[i-j],end=' ')   # i = 5 , j = 0 -> 5 -> 4
+        break
+    else:
+        a=1
+if a==1:
+    for k in range(len(arr),-1):
+        print(arr[i],end=' ')
 
 
 # for i in range( 4 ,-1)
@@ -20,15 +21,3 @@
 # 출력 결과 : 
 # 4 3 2 1 0
 # 83 5 13 1 3
-
-
-
-
-
-arr = list(map(int, input().split()))
-
-for i in range(len(arr)):
-    if arr[i] == 0:
-        for j in range(i - 1, -1, -1):
-            print(arr[j], end=' ')
-        break
